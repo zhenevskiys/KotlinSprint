@@ -21,20 +21,15 @@ package lesson_1
 fun main() {
 
     val year: Int = 1961
-    var hour: Int = 9
-    var minute: Int = 7
+    var hour: String = "9"
+    var minute: String = "7"
 
     println(year)
     println(hour)
     println(minute)
 
-    hour = 10
-    minute = 55
-    print(hour)
-    print(":")
-    println(minute)
+    hour = "10"
+    minute = "55"
 
-    val hh: String = "10"
-    val mm: String = "55"
-    println("$hh:$mm")
+    println("$hour:$minute")
 }
